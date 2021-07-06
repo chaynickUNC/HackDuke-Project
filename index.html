@@ -1,0 +1,121 @@
+<!--This is the html for the webpage-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StudyBuddy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <div class="buttons">
+        <button class="button" id="zButton">Zoom Link Sharing</button>
+        <button class="button" id="pomoButton">Pomodoro Timer</button>
+        <button class="button" id="studyButton">Study Tips</button>
+        <button class="button" id="langButton">Quick Translate</button>
+        <button class="button" id="wikiButton">WikiSpeedia</button>
+    </div>
+
+
+    <div class="container">
+        <p id="textBox" style="">
+            Zoom Link Sharing is a tool that allows users to send a Zoom link to their study partners' emails all from one place. <br><br>
+            The Pomodoro Timer provides users with a time management tool that encourages them to work through large projects in an efficient method. The Pomodoro Method consists of 4 25-minute work intervals seperated by five minute breaks. <br><br>
+            The Study Tips tool provides users with randomized tips that may help them with everyday school activities. <br><br>
+            Quick Translate is a tool that allows users to input foreign text, the language that text is in, and the language they want to translate that text to, all while never having to leave the page. <br><br>
+            WikiSpeedia provides users with the ability to input a topic they would like to learn more about, and displays a short summary of that topic from Wikipeedia.
+        </p>
+
+        <div class="ZoomBox" style="display:none">
+            <label for="">Please Input Your Zoom Link</label>
+            <br>
+            <input type="text">
+
+            <br>
+
+            <label for="">Please input participants' emails seperated by commas</label>
+            <br>
+            <input type="text">
+
+            <br>
+
+            <button class="zButton">Send Zoom Link</button>
+        </div>
+
+        <div class="pomoBox" style="display:none">
+            <h2 id="timeBox">25:00</h2>
+            <h3 id="cycleBox">0 of 4 25-minute segments complete</h3>
+            <button id="startButton">Start</button>
+            <button id="resetButton">Reset</button>
+        </div>
+
+        <div class="studyBox" style="display:none">
+            <button class="tipButton" id="tipButton">Generate Random Studytip</button>
+            <p id="tipBox"></p>
+            
+        </div>
+
+        <div class="langBox" style="display:none">
+
+            <textarea id="translatedBox" cols="30" rows="10"></textarea>
+
+            <br>
+
+            <label for="">Please Input Text to be Translated</label>
+            <br>
+            <input type="text">
+
+            <br>
+
+            <label for="">Please Input Current Language</label>
+            <br>
+            <input type="text">
+
+            <br>
+
+            <label for="">Please Input Target Language</label>
+            <br>
+            <input type="text">
+
+            <br>
+
+            <button class="zButton">Translate</button>
+
+            <br>
+
+            
+        </div>
+
+        <div class="wikiBox" style="display:none">
+            <textarea id="translatedBox" cols="30" rows="10"></textarea>
+
+            <br>
+
+            <label for="">Topic to Search</label>
+            <br>
+            <input type="text" id="wikiTextBox">
+
+            <button id="wikiSearchButton">Search</button>
+        </div>
+
+    </div>
+
+    <div class="sidebar">
+        <p>
+            <h4>Contributors:</h4>
+            <p>Erin Byrd <br> Nicholas Carter <br> Albert Demarco</p>
+        </p>
+    </div>
+
+    <div id="UNC_img">
+        <img src="CS_UNC_blue.png" alt="">
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

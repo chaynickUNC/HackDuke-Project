@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+}
+
+input{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+button{
+    background-color: "red";
+}
+
+.button{
+    background-color: blue;
+    float: left;
+    width: 19%;
+    margin-left: .2em;
+    margin-right: .2em;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.button:hover{
+    background-color: rgb(33, 4, 194)
+}
+
+.container{
+    float: right;
+    width: 80%;
+    margin-right: 1.2em;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding-left: .3em;
+    padding-right: .3em;
+    margin-top: .6em;
+    
+}
+
+.sidebar{
+    float: left;
+    width: 13%;
+    border: 2px black solid;
+    border-radius: 15px;
+    margin: auto;
+    padding-left: .3em;
+    padding-right: .2em;
+    position: fixed;
+    margin-top: 3em;
+}
+
+.buttons{
+    float: right;
+    width: 80%;
+    margin-right: 1.2em;
+    border-radius: 15px;
+    padding-left: .3em;
+    padding-right: .3em;
+    margin-top: .6em;
+}
+
+
+.ZoomBox, .wikiBox, .langBox{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.langBox button{
+    margin-bottom: 15px;
+}
+
+.langBox textarea{
+    float: right;
+    width: 55%;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.wikiBox textarea{
+    float: right;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
+.pomoBox button{
+    border-radius: 15px;
+    border: none;
+    width: 49%;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.pomoBox #startButton{
+    float: left;
+    background-color:#5da423;
+}
+
+.pomoBox #startButton:hover{
+    background-color:#4c861c;
+}
+
+.pomoBox #resetButton{
+    float: right;
+    background-color: red;
+}
+
+.pomoBox #resetButton:hover{
+    background-color: rgb(216, 0, 0);
+}
+
+.pomoBox h2{
+   text-align: center; 
+}
+
+.studyBox{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#UNC_img{
+    
+    position: absolute;
+    margin-top: 380px;
+    margin-left: -180px;
+    transform: rotate(90deg);
+}
