@@ -8,3 +8,5 @@ following study tools:
   4. Quick Translate is a tool that allows users to input foreign text, the language that text is in, and the language they want to translate that text to, all while never having 
      to leave the page.
   5. WikiSpeedia provides users with the ability to input a topic they would like to learn more about, and displays a short summary of that topic from Wikipeedia.
+
+The files uploaded here only include the webpage layout and Pomodoro Timer.
